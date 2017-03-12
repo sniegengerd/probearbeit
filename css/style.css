@@ -218,23 +218,23 @@ section {
 
 
 /* === changing Content || Navigation === */
-#switchContent {
+#switchItems {
 	background-color: #6a2e92;
 }
 
-#switchContent .inner {
+#switchItems .inner {
 	padding: 90px 0;
 }
 
-#switchContent .content {
+#switchItems .content {
 	padding: 0 9.722222222222222%;
 }
 
-#switchContent ul {
+#switchItems ul {
 	display: inline-block;
 	width: 100%;
 }
-#switchContent ul li {
+#switchItems ul li {
 	position: relative;
 	float: left;
 	width: 33.333333339%;
@@ -248,14 +248,14 @@ section {
 }
 
 
-#switchContent ul li a {
+#switchItems ul li a {
 	color: #ffffff;
 	text-decoration: none;
 }
 
 
 /* Icons */
-#switchContent ul li a.circle {
+#switchItems ul li a.circle {
 	position: relative;
 	display: block;
 	width: 120px;
@@ -273,10 +273,10 @@ section {
 }
 
 /* Hover & Active Stat */
-#switchContent ul li.active a.circle {
+#switchItems ul li.active a.circle {
 	background-color: #461863;
 }
-#switchContent ul li.active:after {
+#switchItems ul li.active:after {
 	content: '';
 	position: absolute;
 	bottom: -129px;
@@ -286,10 +286,10 @@ section {
 	margin-left: -25px;
 }
 
-#switchContent ul li a.circle:hover {
+#switchItems ul li a.circle:hover {
     background-color: #461863;
 }
-#switchContent ul li a.circle:before {
+#switchItems ul li a.circle:before {
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -300,34 +300,34 @@ section {
 	background-image: url('../img/ico_sprite.png');
 }
 
-#switchContent ul li.item-1 a.circle:before {
+#switchItems ul li.item-1 a.circle:before {
 	background-position: 0 0;
 }
-#switchContent ul li.item-1 a.circle:hover:before,
-#switchContent ul li.item-1.active a.circle:before {
+#switchItems ul li.item-1 a.circle:hover:before,
+#switchItems ul li.item-1.active a.circle:before {
 	background-position: -65px 0px;
 }
 
-#switchContent ul li.item-2 a.circle:before {
+#switchItems ul li.item-2 a.circle:before {
 	background-position: 0 130px;
 }
-#switchContent ul li.item-2 a.circle:hover:before,
-#switchContent ul li.item-2.active a.circle:before {
+#switchItems ul li.item-2 a.circle:hover:before,
+#switchItems ul li.item-2.active a.circle:before {
 	background-position: -65px 130px;
 }
 
-#switchContent ul li.item-3 a.circle:before {
+#switchItems ul li.item-3 a.circle:before {
 	background-position: 0 65px;
 }
-#switchContent ul li.item-3 a.circle:hover:before,
-#switchContent ul li.item-3.active a.circle:before {
+#switchItems ul li.item-3 a.circle:hover:before,
+#switchItems ul li.item-3.active a.circle:before {
 	background-position: -65px 65px;
 }
 
 
 
 /* Linktext */
-#switchContent ul li .link {
+#switchItems ul li .link {
 	display: block;
 	max-width: 205px;
 	margin: 0px auto;
@@ -487,36 +487,36 @@ article .content.hidden {
 	/* === changing Content || Navigation === */
 	
 	/* Icons */
-	#switchContent ul li a.circle {
+	#switchItems ul li a.circle {
 	    width: 105px;
 	    height: 105px;
 	}
 
-	#switchContent ul li a.circle:before {
+	#switchItems ul li a.circle:before {
 		width: 50px;
 		height: 50px;
 		margin: -25px 0 0 -25px;
 		background-size: 100px;
 	}
 
-	#switchContent ul li.item-1 a.circle:hover:before,
-	#switchContent ul li.item-1.active a.circle:before {
+	#switchItems ul li.item-1 a.circle:hover:before,
+	#switchItems ul li.item-1.active a.circle:before {
 		background-position: -50px 0px;
 	}
 
-	#switchContent ul li.item-2 a.circle:before {
+	#switchItems ul li.item-2 a.circle:before {
 	    background-position: 0 100px;
 	}
-	#switchContent ul li.item-2 a.circle:hover:before,
-	#switchContent ul li.item-2.active a.circle:before {
+	#switchItems ul li.item-2 a.circle:hover:before,
+	#switchItems ul li.item-2.active a.circle:before {
 		background-position: -50px 100px;
 	}
 
-	#switchContent ul li.item-3 a.circle:before {
+	#switchItems ul li.item-3 a.circle:before {
 	    background-position: 0 50px;
 	}
-	#switchContent ul li.item-3 a.circle:hover:before,
-	#switchContent ul li.item-3.active a.circle:before {
+	#switchItems ul li.item-3 a.circle:hover:before,
+	#switchItems ul li.item-3.active a.circle:before {
 		background-position: -50px 50px;
 	}
 	/* === changing Content || END // Navigation === */
@@ -547,12 +547,12 @@ article .content.hidden {
 	/* === MAIN === */
 
 	/* === changing Content === */
-	#switchContent .content {
+	#switchItems .content {
 		position: relative;
 		padding: 0;
 	}
 
-	#switchContent .content:after {
+	#switchItems .content:after {
 		content: '';
 		position: absolute;
 		left: 50%;
@@ -563,7 +563,7 @@ article .content.hidden {
 		margin-left: -25px;
 	}
 
-	#switchContent ul li.active:after {
+	#switchItems ul li.active:after {
 		display: none;
 	}
 	/* === END // changing Content === */
@@ -644,51 +644,51 @@ article .content.hidden {
 	/* === MAIN === */
 
 	/* === changing Content || Navigation === */
-	#switchContent .inner {
+	#switchItems .inner {
 		padding: 40px 0;
 	}
 
-	#switchContent .content:after {
+	#switchItems .content:after {
 		bottom: -69px;
 	}
 
 	/* Icons */
-	#switchContent ul li {
+	#switchItems ul li {
 		height: auto;
 		font-size: 0.75em;
 	}
 
-	#switchContent ul li a.circle {
+	#switchItems ul li a.circle {
 	    width: 80px;
 	    height: 80px;
 	    margin-bottom: 15px;
 	}
 
-	#switchContent ul li a.circle:before {
+	#switchItems ul li a.circle:before {
 		width: 40px;
 		height: 40px;
 		margin: -20px 0 0 -20px;
 		background-size: 80px;
 	}
 
-	#switchContent ul li.item-1 a.circle:hover:before,
-	#switchContent ul li.item-1.active a.circle:before {
+	#switchItems ul li.item-1 a.circle:hover:before,
+	#switchItems ul li.item-1.active a.circle:before {
 		background-position: -40px 0px;
 	}
 
-	#switchContent ul li.item-2 a.circle:before {
+	#switchItems ul li.item-2 a.circle:before {
 	    background-position: 0 80px;
 	}
-	#switchContent ul li.item-2 a.circle:hover:before,
-	#switchContent ul li.item-2.active a.circle:before {
+	#switchItems ul li.item-2 a.circle:hover:before,
+	#switchItems ul li.item-2.active a.circle:before {
 		background-position: -40px 80px;
 	}
 
-	#switchContent ul li.item-3 a.circle:before {
+	#switchItems ul li.item-3 a.circle:before {
 	    background-position: 0 40px;
 	}
-	#switchContent ul li.item-3 a.circle:hover:before,
-	#switchContent ul li.item-3.active a.circle:before {
+	#switchItems ul li.item-3 a.circle:hover:before,
+	#switchItems ul li.item-3.active a.circle:before {
 		background-position: -40px 40px;
 	}
 	/* === changing Content || END // Navigation === */
@@ -719,12 +719,12 @@ article .content.hidden {
 	/* === changing Content || Navigation === */
 
 	/* Icons */
-	#switchContent ul li a.circle {
+	#switchItems ul li a.circle {
 	    margin-bottom: 0;
 	}
 	/* END //  Icons */
 
-	#switchContent ul li .link {
+	#switchItems ul li .link {
 		display: none;
 	}
 	/* === changing Content || END // Navigation === */
